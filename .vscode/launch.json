@@ -1,16 +1,19 @@
 {
   "version": "0.2.0",
   "configurations": [
-    {
-      "name": "Microsoft cloud sandbox",
-      "type": "al",
-      "request": "launch",
-      "startupObjectId": 22,
-      "breakOnError": true,
-      "breakOnRecordWrite": false,
-      "launchBrowser": true,
-      "tenant": "c2d70e79-12e2-4104-b73e-187655aeb9d6",
-      "sandboxName": "DirectionsEMEA"
-    }
+      {
+          "type": "al",
+          "request": "launch",
+          "name": "Your own server",
+          "server": "http://ContainerName",
+          "serverInstance": "NAV",
+          "authentication": "Windows",
+          "startupObjectId": 22,
+          "startupObjectType": "Page",
+          "breakOnError": true,
+          "launchBrowser": true,
+          "enableLongRunningSqlStatements": true,
+          "enableSqlInformationDebugger": true
+      }
   ]
 }

@@ -1,41 +1,33 @@
 {
-    "id": "GUID",
-    "name": "Extension Name",
-    "publisher": "TharangaC",
-    "brief": "",
-    "description": "Customer Specific Functionality",
-    "version": "1.0.0.0",
-    "privacyStatement": "",
-    "EULA": "",
-    "help": "",
-    "url": "https://www.tharangac.com/",
-    "logo": "./docs/res/logo_sm.png",
-    "capabilities": [
-
-    ],
-    "dependencies": [
-
-    ],
-    "screenshots": [
-
-    ],
-    "platform": "14.0.0.0",
-    "application": "14.0.0.0",
-    "test": "14.0.0.0",
-    "target": "Extension",
-    "idRanges": [
-      {
-        "from": 55000,
-        "to": 55200
-      }
-    ],
-  "contextSensitiveHelpUrl": "https://help.365extensions.com/?path=./$(AppShortId)/$(AppVersion)/{0}",
+  "id": "c15721de-0d7f-4d23-b87e-2803a630272d",
+  "name": "DevOpsWorkshop",
+  "publisher": "TharangaC",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+  ],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://DevOpsWorkshop.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0",
+  "features": [
+    "TranslationFile"
+  ],
     "supportedLocales": [
-      "en-NZ"
-    ],
-    "showMyCode": true,
-    "runtime": "3.0",
-    "features": [
-      "TranslationFile"
-    ]
-  }
+  "en-NZ"
+]
+}

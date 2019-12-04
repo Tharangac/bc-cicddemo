@@ -1,10 +1,8 @@
 {
-    "CRS.OnSaveAlFileAction": "Rename",
-    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-    "CRS.ObjectNamePrefix": "**_",
-    "CRS.RemovePrefixFromFilename": true,
+    "CRS.ObjectNameSuffix": "_TC",
+    "CRS.OnSaveAlFileAction": "Reorganize",
+    "CRS.DisableDefaultAlSnippets": true,
+    "CRS.RenameWithGit": true,
     "al.enableCodeAnalysis": true,
     "al.codeAnalyzers": [
         "${AppSourceCop}",
@@ -20,11 +18,13 @@
         ".vscode/tasks.json": true,
         ".vscode/extensions.json": true,
         ".vscode/al.code-snippets": true,
+        ".vscode/rad.json": true,
         ".gitignore": true,
         ".alpackages": true
     },
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
+    "files.autoSave": "off",
     "plantuml.diagramsRoot": "docs/res/diagrams",
     "plantuml.exportOutDir": "docs/res/diagrams",
     "plantuml.exportSubFolder": false,
